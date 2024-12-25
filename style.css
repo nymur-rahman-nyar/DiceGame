@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'GameFont';
+    src: url('fonts/ARCADECLASSIC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f4f4f9; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Starting page syles here*/
+
+#home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.flex_item{
+    display: flex;
+
+}
+
+#icon_and_name_box{
+    flex-direction: row;
+}
+
+#author_name{
+    align-self: flex-end;
+    padding-left: 10px;
+}
+
+
+#dice_image_home{
+    width: 200px;
+}
+
+#game_start_text_box{
+    font-family: GameFont;
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#start_button{
+    background-color: transparent;
+    border-color: black;
+    border-width: 4px;
+    
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#back_to_webpage{
+    position: fixed;
+    font-style: normal;
+    color: inherit;
+    text-decoration: none; 
+    bottom: 20px;
+}
