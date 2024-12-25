@@ -1,0 +1,16 @@
+#score_container{
+    display: flex;
+    background-color:grey ;
+    
+}
+
+#left_container{
+    background-color: aquamarine;
+    flex: 1;
+}
+
+#right_container{
+    background-color: rgb(232, 255, 127);
+    left: 10px;
+    flex: 1;
+}
