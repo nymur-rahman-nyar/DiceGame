@@ -1,16 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Start - score part*/
+
 #score_container{
     display: flex;
-    background-color:grey ;
+    height: 100px;
+    padding: 20px;
     
 }
 
 #left_container{
-    background-color: aquamarine;
+    text-align: left;
     flex: 1;
 }
 
+#computer_score_title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+#computer_score{
+    margin-top: 0px;
+    font-size: 4rem;
+}
+
+
+
 #right_container{
-    background-color: rgb(232, 255, 127);
-    left: 10px;
+    text-align: right;
     flex: 1;
+}
+
+#player_socre_title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+#player_score{
+    margin-top: 0px;
+    font-size: 4rem;
+}
+
+/* End - score part*/
+
+/*start of the dice design*/
+
+#dice_container{
+    width: 100%;
+    height: 400px;
+    background-color: rebeccapurple;
 }
